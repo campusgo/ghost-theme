@@ -1,0 +1,19 @@
+<article class="card">
+    {{#if feature_image}}
+        <img class="card-img-top img-fluid" src="{{feature_image}}" alt="Card image cap"> 
+    {{/if}}
+    <div class="card-body m-2">
+        <a href="{{url}}" class="h5 card-title">
+            {{title}}
+        </a>
+        <p class="card-text">
+            {{excerpt words="33"}}... 
+            <a href="{{url}}" class="card-link">Read more</a>
+        </p>
+    </div>
+    {{#if primary_tag}}
+        <div class="card-footer text-muted">
+            {{primary_tag.name}}
+        </div>
+    {{/if}}
+</article>

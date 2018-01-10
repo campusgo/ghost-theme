@@ -1,0 +1,11 @@
+<ul class="nav pagination d-flex justify-content-center" role="navigation">
+    <li class="nav-item{{#if next}} invisible{{/if}}">
+        <a class="nav-link active newer-posts" href="{{page_url prev}}">&larr; Newer Posts</a>
+    </li>
+    <li class="nav-item">
+        <span class="nav-link">Page {{page}} of {{pages}}</span>
+    </li>        
+    <li class="nav-item{{#if prev}} invisible{{/if}}">
+        <a class="nav-link active older-posts" href="{{page_url next}}">Older Posts &rarr;</a>
+    </li>
+</ul>

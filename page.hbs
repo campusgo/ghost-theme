@@ -1,0 +1,18 @@
+{{!< default}}
+{{#post}}
+    <div class="d-flex justify-content-end my-5 align-items-center hidden-md-down">
+        <h1 class="display-2 mr-auto">{{title}}</h1>
+    </div>
+    <div class="hidden-lg-up text-center text-md-left">
+        <h1 class="display-4 mb-2">{{title}}</h1>
+    </div>
+    <hr class="my-3" />
+    {{#if feature_image}}
+        <p class="text-justify">
+            <img src="{{feature_image}}" class="img-thumbnail float-md-right ml-md-5 mb-2" /><p>
+        </p>
+    {{/if}}
+    <article class="pt-3">
+        {{content}}
+    </article>
+{{/post}}

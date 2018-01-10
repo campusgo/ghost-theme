@@ -1,0 +1,41 @@
+.bg-white {
+    background-color: #ffffff !important;
+}
+.bg-primary {
+    background-color: #004361 !important;
+}
+.btn-primary {
+    background-color: #004361 !important;
+    border-color: #004361 !important;
+}
+.card-primary {
+    background-color: #004361 !important;
+}
+.bg-success {
+    background-color: #1ECDAE !important;
+}
+.btn-success {
+    background-color: #1ECDAE !important;
+    border-color: #1ECDAE !important;
+}
+.bg-secondary {
+    background-color: #E8E8E8 !important;
+}
+.btn-secondary {
+    background-color: #E8E8E8 !important;
+    border-color: #E8E8E8 !important;
+}
+.bg-transparent {
+    background-color: transparent !important;
+}
+.card-outline-transparent {
+    border-color: transparent !important;
+}
+.sticky-base {
+  display: flex;
+  min-height: 100vh;
+  flex-direction: column;
+}
+.sticky-grow {
+  flex: 1;
+}
